@@ -76,7 +76,9 @@ console.log(
 
 const valore1 = 12;
 const valore2 = 20;
-console.log(valore1 + valore2);
+const totale = valore1 + valore2;
+
+console.log(totale);
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
@@ -122,5 +124,5 @@ const name1 = "john";
 const name2 = "John";
 console.log(name1 === name2);
 console.log(name1 < name2);
-console.log(name1 && name2);
 console.log(!(name1 === name2));
+console.log(!(name1 < name2));
